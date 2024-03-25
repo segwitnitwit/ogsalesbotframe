@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "build": "echo \"nice\" && exit 1",
+    "build": "echo \"nice\" && exit 0",
     "start": "node frame-backend.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
