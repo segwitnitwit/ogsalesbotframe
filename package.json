@@ -1,16 +1,15 @@
 {
   "name": "ogsalesbotframe",
   "version": "1.0.0",
-  "description": "",
+  "description": "Description of your project",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "build": "echo \"nice\" && exit 0",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "vercel dev"
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.19.1"
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "vercel": "^24.2.0"
   }
 }
