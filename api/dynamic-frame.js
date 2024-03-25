@@ -13,7 +13,7 @@ export default function handler(req, res) {
       <head>
           <title>Dynamic Frame</title>
           <meta property="fc:frame" content="vNext" />
-          <meta property="fc:frame:image" content="https://i.seadn.io/s/raw/files/d4750a957e99ba0a3e586397cbd29ef4.gif?auto=format&dpr=1&w=3840" />
+          <meta property="fc:frame:image" content="https://www.rollingstone.com/wp-content/uploads/2020/07/Screen-Shot-2020-07-15-at-11.24.37-AM.jpg?w=910&h=511&crop=1" />
           <meta property="fc:frame:button:1" content="View on OpenSea" />
           <meta property="fc:frame:button:1:action" content="link" />
           <meta property="fc:frame:button:1:target" content="${targetUrl}" />
