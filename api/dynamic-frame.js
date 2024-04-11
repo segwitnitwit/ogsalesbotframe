@@ -3,7 +3,6 @@ export default function handler(req, res) {
   // Extract the dynamic token ID from query parameters
   const { tokenId } = req.query;
   const { contractAddress } = req.query;
-  const { imageUrl } = req.query;
 
   // Construct the dynamic target URL based on the token ID
   const targetUrl = `https://opensea.io/assets/base/${contractAddress}/${tokenId}`;
@@ -15,7 +14,7 @@ export default function handler(req, res) {
         <head>
             <title>Dynamic Frame</title>
             <meta property="fc:frame" content="vNext" />
-            <meta property="fc:frame:image" content="${imageUrl}" />
+            <meta property="fc:frame:image" content="https://pbs.twimg.com/tweet_video_thumb/GJ-EvP7W0AAoOpW?format=jpg&name=medium" />
             <meta property="fc:frame:button:1" content="View on OpenSea" />
             <meta property="fc:frame:button:1:action" content="link" />
             <meta property="fc:frame:button:1:target" content="${targetUrl}" />
