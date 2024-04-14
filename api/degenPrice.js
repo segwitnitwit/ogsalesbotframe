@@ -22,7 +22,7 @@ export default function handler(req, res) {
       <body>
           <img id="secondImage" src="https://i.imgur.com/DkFXm8p.png" style="display: none;" />
           <!-- Button to show the second image -->
-          <button onclick="showSecondImage()">Show Second Image</button>
+          <button onclick="showSecondImage()">Show Current Price</button>
       </body>
       </html>
     `;
