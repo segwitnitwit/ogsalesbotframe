@@ -7,7 +7,7 @@ export default function handler(req, res) {
           <head>
               <title>Dynamic Frame</title>
               <meta property="fc:frame" content="vNext" />
-              <meta property="fc:frame:image" content="https://i.imgur.com/UlooLy0.png" />
+              <meta property="fc:frame:image" content="https://i.imgur.com/UlooLy0.png?x=1713112997" />
               <meta property="fc:frame:image:aspect_ratio" content="1:1" /> <!-- Adjust aspect ratio here -->
               <meta name="fc:frame:post_url" content="https://og-sales-bot-frame.vercel.app/api/degenPriceFrame2" />
               <meta name="fc:frame:button:1" content="View Price" />
