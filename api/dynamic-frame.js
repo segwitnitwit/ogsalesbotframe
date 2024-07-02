@@ -14,7 +14,7 @@ export default function handler(req, res) {
         <head>
             <title>Dynamic Frame</title>
             <meta property="fc:frame" content="vNext" />
-            <meta property="fc:frame:image" content="https://pbs.twimg.com/tweet_video_thumb/GJ-EvP7W0AAoOpW?format=jpg&name=medium" />
+            <meta property="fc:frame:image" content="https://i.seadn.io/s/raw/files/0051dce5929fe4f195bf98bb20ea7aa0.jpg?auto=format&dpr=1&w=1000" />
             <meta property="fc:frame:button:1" content="View on OpenSea" />
             <meta property="fc:frame:button:1:action" content="link" />
             <meta property="fc:frame:button:1:target" content="${targetUrl}" />
